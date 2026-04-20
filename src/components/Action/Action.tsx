@@ -2,13 +2,13 @@ import Button from "../Button/Button";
 
 const Action = () => {
   return (
-    <section className="w-full h-auto">
-      <div className="max-w-7xl mx-auto my-auto pt-40 ">
+    <section id="action" className="w-full h-auto">
+      <div className="max-w-7xl mx-auto my-auto pt-40">
         <div className="flex flex-col items-center justify-center px-30">
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-4xl font-bold mb-4 sm:text-center ">
             Vamos criar algo extraordinário juntos?
           </h2>
-          <p className="mt-6 text-lg text-center text-secondary px-40">
+          <p className="mt-6 text-lg text-center text-secondary px-40 sm:px-10">
             Disponível para novos projetos freelance. Quer levar seu produto
             para o próximo nível? Vamos conversar.
           </p>

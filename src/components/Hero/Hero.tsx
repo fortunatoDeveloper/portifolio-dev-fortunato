@@ -19,11 +19,12 @@ const Hero = () => {
 
   return (
     <section
+      id="Hero"
       className={`${styles.bgGrid} w-full h-auto relative overflow-hidden`}
     >
       <div className={`${styles.glowCircle} top-[150px] right-[-150px]`}></div>
       <div
-        className={`container ${styles.contentPosition} mx-auto mt-32 py-20 flex flex-col items-center text-center gap-10 px-4`}
+        className={`container ${styles.contentPosition} mx-auto mt-32 py-20 flex flex-col items-center text-center gap-10 px-4 sm:px-0`}
       >
         <motion.div
           variants={textVariant(0.2)}
@@ -59,7 +60,7 @@ const Hero = () => {
                 resultados reais
               </span>
             </h1>
-            <p className="px-30 text-primary/70 text-lg">
+            <p className="px-30 text-primary/70 text-lg sm:px-10">
               Desenvolvedor Full Stack criando sistemas performáticos e
               interfaces otimizadas para gerar crescimento de verdade.
             </p>

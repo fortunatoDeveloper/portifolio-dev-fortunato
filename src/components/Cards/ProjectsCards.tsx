@@ -15,7 +15,7 @@ interface CardsProps {
 
 const ProjectCards = ({ img, title, subtitle, stacks, className, linkButton }: CardsProps) => {
   return (
-    <div className={`relative h-[550px] border border-white/10 bg-white/5 backdrop-blur-xl rounded-3xl overflow-hidden shadow-[0_0_40px_-10px_rgba(0,0,0,0.4)] ${className}`}>
+    <div className={`relative h-auto border border-white/10 bg-white/5 backdrop-blur-xl rounded-3xl overflow-hidden shadow-[0_0_40px_-10px_rgba(0,0,0,0.4)] ${className}`}>
       <img
         src={typeof img === "string" ? img : img?.src}
         alt="project-image"

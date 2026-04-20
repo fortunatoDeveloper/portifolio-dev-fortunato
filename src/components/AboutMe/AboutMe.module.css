@@ -1,0 +1,4 @@
+.imageSplitShadow {
+    border-radius: 50%;
+    box-shadow: 35px 5px 40px 0 #a557f6, -35px 5px 40px 0 #7a87f9;
+}

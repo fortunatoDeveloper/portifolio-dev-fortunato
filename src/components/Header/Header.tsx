@@ -8,13 +8,13 @@ const Header = () => {
       <div
         className="flex border-2 border-main-light-grey/80 bg-dark/40 h-16 backdrop-blur-xl rounded-full mx-auto py-4 px-10">
         <div className="flex items-center justify-start z-10">
-          <img src="/logo.svg" width="150" height="100" alt="logo" />
+          <a href="/"><img src="/logo.svg" width="150" height="100" alt="logo" /></a>
         </div>
         <nav className="grow flex justify-center">
           <ul className="flex items-center gap-10 font-semibold text-lg text-primary/80">
-            <li className="hover:text-primary transition-colors">Sobre</li>
-            <li className="hover:text-primary transition-colors">Projetos</li>
-            <li className="hover:text-primary transition-colors">Stack</li>
+            <li className="cursor-pointer hover:text-primary transition-colors"><a href="http://localhost:3000/aboutMe">Sobre</a></li>
+            <li className="cursor-pointer hover:text-primary transition-colors"><a href="#projects">Projetos</a></li>
+            <li className="cursor-pointer hover:text-primary transition-colors"><a href="#action">Fale comigo</a></li>
           </ul>
         </nav>
         {/* <div className="flex items-center">

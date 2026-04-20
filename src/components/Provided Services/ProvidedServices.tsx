@@ -54,12 +54,12 @@ const ProvidedServices = () => {
         viewport={{ once: true, amount: 0.18 }}
         className="max-w-7xl mx-auto py-30"
       >
-        <ServicesCards className="p-20 flex flex-col ">
+        <ServicesCards className="p-20 flex flex-col sm:p-10 sm:h-auto sm:mx-10">
           <motion.div variants={cardVariant} className="mb-4">
-            <h2 className="text-3xl font-bold text-primary">
+            <h2 className="text-center text-3xl font-bold text-primary">
               Soluções para impulsionar o seu negócio
             </h2>
-            <p className="text-secondary opacity-90 mt-4">
+            <p className="text-center text-secondary opacity-90 mt-4">
               Soluções digitais completas, da arquitetura de banco de dados ao
               design de interface.
             </p>
@@ -67,7 +67,7 @@ const ProvidedServices = () => {
 
           <motion.ul
             variants={listVariant}
-            className="text-secondary opacity-90 p-10 grid grid-cols-3 gap-20 list-none mt-6"
+            className="text-secondary opacity-90 p-10 grid grid-cols-3 gap-20 list-none mt-6 sm:grid-cols-1 md:grid-cols-2"
           >
             {items.map((text, i) => (
               <motion.li
