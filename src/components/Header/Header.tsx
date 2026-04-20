@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <nav className="grow flex justify-center">
           <ul className="flex items-center gap-10 font-semibold text-lg text-primary/80">
-            <li className="cursor-pointer hover:text-primary transition-colors"><a href="http://localhost:3000/aboutMe">Sobre</a></li>
+            <li className="cursor-pointer hover:text-primary transition-colors"><a href="https://www.fortunatodev.com.br/aboutMe">Sobre</a></li>
             <li className="cursor-pointer hover:text-primary transition-colors"><a href="#projects">Projetos</a></li>
             <li className="cursor-pointer hover:text-primary transition-colors"><a href="#action">Fale comigo</a></li>
           </ul>
